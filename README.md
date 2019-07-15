@@ -2,7 +2,9 @@
 
 Logo for Artichoke Ruby.
 
-![Artichoke Ruby](dist/artichoke-rb.png =400x400)
+<p align="center">
+  <img width="400" height="400" src="https://raw.githubusercontent.com/artichoke/logo/master/dist/artichoke-rb.png">
+</p>
 
 ## Attribution
 
