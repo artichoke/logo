@@ -1,5 +1,5 @@
 {
-  "name": "artichoke-logo",
+  "name": "@artichoke/logo",
   "version": "0.1.0",
   "private": true,
   "description": "Logo for Artichoke Ruby",
