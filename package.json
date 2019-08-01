@@ -117,7 +117,7 @@
   "scripts": {
     "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
     "lint": "./scripts/lint.sh",
-    "loc": "loc --exclude dist"
-  },
-  "postinstall": "mv src/* ."
+    "loc": "loc --exclude dist",
+    "postinstall": "mv src/* ."
+  }
 }
