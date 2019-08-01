@@ -1,1 +1,1 @@
-import "./artichoke-rb.svg";
+import "./logo.svg";
