@@ -1,8 +1,8 @@
 {
-  "name": "artichoke-assets",
+  "name": "artichoke-logo",
   "version": "0.1.0",
   "private": true,
-  "description": "Assets for Artichoke Ruby",
+  "description": "Logo for Artichoke Ruby",
   "keywords": [
     "programming language",
     "scripting",
