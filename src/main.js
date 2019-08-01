@@ -1,0 +1,1 @@
+import "artichoke-rb.svg"
