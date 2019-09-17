@@ -3,13 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Logo for Artichoke Ruby",
-  "keywords": [
-    "programming language",
-    "scripting",
-    "ruby",
-    "rust",
-    "assets"
-  ],
+  "keywords": ["programming language", "scripting", "ruby", "rust", "assets"],
   "homepage": "https://github.com/artichoke/logo#readme",
   "bugs": "https://github.com/artichoke/logo/issues",
   "license": "MIT",
@@ -50,9 +44,7 @@
     "prettier-eslint": "^9.0.0"
   },
   "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
+    "presets": ["@babel/preset-env"]
   },
   "eslintConfig": {
     "env": {
@@ -62,11 +54,7 @@
       "node": true
     },
     "parser": "babel-eslint",
-    "plugins": [
-      "html",
-      "import",
-      "prettier"
-    ],
+    "plugins": ["html", "import", "prettier"],
     "extends": [
       "airbnb",
       "prettier",
