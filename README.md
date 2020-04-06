@@ -3,7 +3,7 @@
 Logo for Artichoke Ruby.
 
 <p align="center">
-  <img width="400" height="400" src="https://artichoke.run/logo.svg">
+  <img width="400" height="400" src="https://artichoke.github.io/logo/logo.svg">
 </p>
 
 ## Attribution
