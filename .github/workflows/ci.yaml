@@ -9,6 +9,29 @@ on:
   schedule:
     - cron: "0 0 * * TUE"
 jobs:
+  publish:
+    name: Publish assets to GitHub Pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Copy static assets
+        run: |
+          mkdir target
+          cp --verbose logo.png logo.svg target
+
+      - name: Deploy Assets
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/trunk'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target
+          publish_branch: gh-pages
+          user_name: artichoke-ci
+          user_email: ci@artichokeruby.org
+
   text:
     name: Lint and format text
     runs-on: ubuntu-latest
