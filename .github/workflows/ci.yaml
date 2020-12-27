@@ -21,7 +21,7 @@ jobs:
       - name: Copy static assets
         run: |
           mkdir target
-          cp --verbose logo.png logo.svg target
+          cp --verbose *.png *.svg target
 
       - name: Deploy Assets
         uses: peaceiris/actions-gh-pages@v3
