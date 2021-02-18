@@ -24,6 +24,7 @@ jobs:
           mkdir dist
           cp --verbose -a favicons/. dist/
           cp --verbose -a img/. dist/
+          cp --verbose -a optimized/ dist/
           cp --verbose -a social/ dist/
           rm --verbose dist/**/*.md
 
