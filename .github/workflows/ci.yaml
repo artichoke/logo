@@ -20,9 +20,12 @@ jobs:
 
       - name: Copy static assets
         run: |
+          shopt -s globstar
           mkdir dist
+          cp --verbose -a favicons/. dist/
           cp --verbose -a img/. dist/
           cp --verbose -a social/ dist/
+          rm --verbose dist/**/*.md
 
       - name: Deploy Assets
         uses: peaceiris/actions-gh-pages@v3
