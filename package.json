@@ -1,6 +1,6 @@
 {
   "name": "@artichokeruby/logo",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Artichoke Ruby logo",
   "keywords": [
     "programming language",
@@ -17,11 +17,13 @@
     "Ryan Lopopolo <rjl@hyperbo.la> (https://hyperbo.la/)"
   ],
   "repository": "github:artichoke/logo",
+  "main": "index.js",
   "files": [
     "LICENSE.md",
     "README.md",
     "favicons",
     "img",
+    "index.js",
     "optimized",
     "social",
     "source"
