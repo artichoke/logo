@@ -20,15 +20,16 @@ jobs:
 
       - name: Copy static assets
         run: |
-          mkdir target
-          cp --verbose *.png *.svg target
+          mkdir dist
+          cp --verbose -a img/. dist/
+          cp --verbose -a social/ dist/
 
       - name: Deploy Assets
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/trunk'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./target
+          publish_dir: ./dist
           publish_branch: gh-pages
           user_name: artichoke-ci
           user_email: ci@artichokeruby.org
