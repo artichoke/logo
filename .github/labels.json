@@ -27,7 +27,12 @@
   {
     "name": "A-release",
     "color": "f7e101",
-    "description": "Area: crates.io releases and version bumps."
+    "description": "Area: npmjs.org releases and version bumps."
+  },
+  {
+    "name": "A-security",
+    "color": "f7e101",
+    "description": "Area: security vulnerabilities and unsoundness issues."
   },
   {
     "name": "C-bug",
@@ -98,6 +103,11 @@
     "name": "S-invalid",
     "color": "d3dddd",
     "description": "Status: This issue or pull request is not well-formed."
+  },
+  {
+    "name": "S-speculative",
+    "color": "d3dddd",
+    "description": "Status: This is just an idea."
   },
   {
     "name": "S-wip",
