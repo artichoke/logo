@@ -37,6 +37,6 @@
     }
   },
   "scripts": {
-    "fmt": "npx prettier --write '**/*'"
+    "fmt": "npx prettier --write \"**/*\""
   }
 }
