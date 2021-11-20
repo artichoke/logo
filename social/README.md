@@ -5,7 +5,7 @@
 ### Discord
 
 <https://discord.com/branding>  
-<https://discord.com/assets/41484d92c876f76b20c7f746221e8151.svg>
+<https://discord.com/assets/2d20a45d79110dc5bf947137e9d99b66.svg>
 
 ### GitHub
 
