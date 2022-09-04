@@ -26,6 +26,7 @@ jobs:
           cp --verbose -a img/. dist/
           cp --verbose -a optimized/ dist/
           cp --verbose -a social/ dist/
+          cp --verbose -a macOS-icns/Artichoke.icns dist/
           rm --verbose dist/**/*.md
 
       - name: Deploy Assets
