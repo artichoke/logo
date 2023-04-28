@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.5.2
 
       - name: Copy static assets
         run: |
@@ -30,7 +30,7 @@ jobs:
           rm --verbose dist/**/*.md
 
       - name: Deploy Assets
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847 # v3.9.2
         if: github.ref == 'refs/heads/trunk'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -44,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.5.2
 
       - name: Lint and check formatting with prettier
         run: npx prettier --check '**/*'
