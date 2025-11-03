@@ -2,11 +2,6 @@
 
 ## Sources
 
-### Discord
-
-<https://discord.com/branding>  
-<https://discord.com/assets/2d20a45d79110dc5bf947137e9d99b66.svg>
-
 ### GitHub
 
 <https://github.com/logos>  
